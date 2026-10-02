@@ -1,0 +1,8 @@
+// Check if the Sentence is Pangram (LC - 1832)
+
+for (char ch = 'a'; ch <= 'z'; ch++) {
+    if (sentence.indexOf(ch) == -1) {
+        return false;
+    }
+}
+return true;

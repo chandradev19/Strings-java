@@ -1,0 +1,4 @@
+// Defanging an IP Address (LC - 1108 Replace)
+
+String a = "1.1.1.1";
+return a.replace(".", "[.]");

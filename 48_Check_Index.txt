@@ -1,0 +1,5 @@
+// Check Index (LC - 28)
+
+a = "Hello";
+b = "ell";
+return a.indexOf(b);

@@ -1,0 +1,17 @@
+// Zigzag Conversion (LC - 6 / HW)
+
+if (numRows == 1 || s.length() <= numRows)
+int cr = 0;
+boolean g = false;
+for (char ch : str.toCharArray()) {
+    c[cr] += ch;
+    if (cr == 0 || cr == numRows - 1) {
+        g = !g;
+    }
+    cr += g ? 1 : -1;
+}
+String f = "";
+for (String a : c) {
+    f = f + a;
+}
+return f;

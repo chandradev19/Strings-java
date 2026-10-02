@@ -1,0 +1,9 @@
+// Jewels and Stones (LC - 771 IndexOf)
+
+for (int i = 0; i < b.length(); i++) {
+    char ch = b.charAt(i);
+    if (a.indexOf(ch) != -1) {
+        c++;
+    }
+}
+return c;

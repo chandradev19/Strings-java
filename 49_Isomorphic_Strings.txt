@@ -1,0 +1,10 @@
+// Isomorphic Strings (LC - 205)
+
+for (int i = 0; i < a.length(); i++) {
+    char c = a.charAt(i);
+    char d = b.charAt(i);
+    if (a.indexOf(c) != b.indexOf(d)) {
+        return false;
+    }
+}
+return true;
